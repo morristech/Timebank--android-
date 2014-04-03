@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:orientation="vertical" >
+<TableLayout
+  android:id="@+id/header"
+  android:layout_width="fill_parent"
+  android:layout_marginRight="2dp"
+  android:layout_marginLeft="2dp"
+  android:layout_height="wrap_content"
+  android:background="@android:color/black">
+
+  <TableRow >
+
+       <Button
+           android:id="@+id/button2"
+           style="?android:attr/buttonStyleSmall"
+           android:layout_height="30dp"
+           android:layout_weight="1"
+           android:onClick="refr"
+           android:text="Обновить"
+           android:textSize="12sp" />
+
+  </TableRow>
+  <TableRow>
+  <TextView
+   android:textColor="@android:color/black"
+   android:layout_margin="1dp"
+   android:gravity="center_horizontal"
+   android:layout_weight="1"
+   android:background="#ffcccccc"
+   android:text="Мой отчёт о балансе" />   
+  </TableRow>
+
+  <TableRow >
+
+   <TextView
+    android:textColor="@android:color/black"
+    android:layout_margin="1dp"
+    android:gravity="center_horizontal"
+    android:layout_weight="1"
+    android:layout_width="1dp"
+    android:background="#ffcccccc"
+    android:text="№" />
+   <TextView
+    android:textColor="@android:color/black"
+    android:gravity="center_horizontal"
+android:layout_weight="1"
+    android:layout_margin="1dp"
+    android:layout_width="190dp"
+    android:background="#ffcccccc"
+    android:text="От участ." />
+   <TextView
+    android:textColor="@android:color/black"
+    android:gravity="center_horizontal"
+android:layout_weight="1"
+    android:layout_margin="1dp"
+    android:layout_width="190dp"
+    android:background="#ffcccccc"
+    android:text="Участнику" />
+   <TextView
+    android:textColor="@android:color/black"
+    android:gravity="center_horizontal"
+android:layout_weight="1"
+    android:layout_margin="1dp"
+    android:layout_width="160dp"
+    android:background="#ffcccccc"
+    android:text="Часов" />
+   <TextView
+    android:textColor="@android:color/black"
+    android:gravity="center_horizontal"
+android:layout_weight="1"
+    android:layout_margin="1dp"
+    android:layout_width="150dp"
+    android:background="#ffcccccc"
+    android:text="Рейт" />
+      <TextView
+    android:textColor="@android:color/black"
+    android:gravity="center_horizontal"
+android:layout_weight="1"
+    android:layout_margin="1dp"
+    android:layout_width="190dp"
+    android:background="#ffcccccc"
+    android:text="Создание" />
+         <TextView
+    android:textColor="@android:color/black"
+    android:gravity="center_horizontal"
+android:layout_weight="1"
+    android:layout_margin="1dp"
+    android:layout_width="210dp"
+    android:background="#ffcccccc"
+    android:text="Утверждение" />
+            <TextView
+    android:textColor="@android:color/black"
+    android:gravity="center_horizontal"
+android:layout_weight="1"
+    android:layout_margin="1dp"
+    android:layout_width="200dp"
+    android:background="#ffcccccc"
+    android:text="Объявление" />
+  </TableRow>
+   </TableLayout>
+
+<ScrollView
+    android:id="@+id/table_scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginTop="1dp" >
+
+  <TableLayout
+   android:id="@+id/maintable"
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:background="@android:color/black">
+
+ 
+   </TableLayout>
+   </ScrollView>
+</LinearLayout>

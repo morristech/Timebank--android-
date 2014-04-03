@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/item1" android:checkable="true" android:title="Публ. координаты" android:visible="true" android:enabled="true" android:titleCondensed="Публ. координаты">   
+        </item>
+<item android:id="@+id/item2" android:title="Настройки" android:visible="true" android:enabled="true" android:titleCondensed="Настройки">   
+        </item>
+    </menu>
